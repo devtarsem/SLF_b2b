@@ -38,7 +38,7 @@ const ongoingStore = create(
             set({isLoadingOrders : true})
             axios({
                 method : "POST",
-                url : "http://127.0.0.1:3003/api/v1/b2b_order/orders",
+                url : "https://demandbackend.onrender.com/api/v1/b2b_order/orders",
                 data : {
                     start , end
                 }
@@ -129,7 +129,7 @@ const ongoingStore = create(
 
             axios({
                 method : 'POST',
-                url : 'http://127.0.0.1:3003/api/v1/b2b_order/status-change',
+                url : 'https://demandbackend.onrender.com/api/v1/b2b_order/status-change',
                 data : {
                    data ,
                    start,
@@ -178,7 +178,7 @@ const ongoingStore = create(
         SKUFetching : async(list)=>{
             axios({
                 method : "POST",
-                url : "http://127.0.0.1:3003/api/v1/b2b_order/sku-fetch",
+                url : "https://demandbackend.onrender.com/api/v1/b2b_order/sku-fetch",
                 data : {
                     list
                 }

@@ -9,7 +9,7 @@ const addProductStore = create(
             set({isLoadingProduct : true})
             axios({
                 method : "POST",
-                url : "http://127.0.0.1:3003/api/v1/b2b/add-products",
+                url : "https://demandbackend.onrender.com/api/v1/b2b/add-products",
                 data : {
                     data : obj
                 }

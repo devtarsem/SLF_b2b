@@ -17,7 +17,7 @@ const authStore = create(
             set({isLaoding : true})
             axios({
                 method : 'POST',
-                url : "http://127.0.0.1:3003/api/v1/b2b_auth/open-acc",
+                url : "https://demandbackend.onrender.com/api/v1/b2b_auth/open-acc",
                 data : {
                     phone,
                     role,
@@ -37,7 +37,7 @@ const authStore = create(
             set({isLaoding : true})
             axios({
                 method : 'POST',
-                url : "http://127.0.0.1:3003/api/v1/b2b_auth/login-acc",
+                url : "https://demandbackend.onrender.com/api/v1/b2b_auth/login-acc",
                 data : {
                     phone,
                     password

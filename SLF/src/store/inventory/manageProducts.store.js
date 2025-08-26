@@ -41,7 +41,7 @@ const productStore = create(
             }else{
                 axios({
                     method : "GET",
-                    url : "http://127.0.0.1:3003/api/v1/b2b/products",
+                    url : "https://demandbackend.onrender.com/api/v1/b2b/products",
                 }).then(res=>{
                     if(res.data.status=='success'){
                         localStorage.setItem("SLMProds", JSON.stringify(res.data.data.products))
@@ -115,7 +115,7 @@ const productStore = create(
             set({isLoadingManageProduct : true})
             axios({
                 method : 'POST',
-                url : "http://127.0.0.1:3003/api/v1/b2b/update-product",
+                url : "https://demandbackend.onrender.com/api/v1/b2b/update-product",
                 data : {
                     product
                 }
@@ -156,7 +156,7 @@ const productStore = create(
             set({isLoadingManageProduct : true})
             axios({
                 method : 'POST',
-                url : "http://127.0.0.1:3003/api/v1/b2b/delete-products",
+                url : "https://demandbackend.onrender.com/api/v1/b2b/delete-products",
                 data : {
                     list : list
                 }
@@ -180,7 +180,7 @@ const productStore = create(
             set({isLoadingManageProduct : true})
             axios({
                 method : "POST",
-                url : "http://127.0.0.1:3003/api/v1/b2b/inventory-update",
+                url : "https://demandbackend.onrender.com/api/v1/b2b/inventory-update",
                 data : {
                     stock,
                     sku_id

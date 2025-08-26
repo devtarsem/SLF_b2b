@@ -24,7 +24,7 @@ const manageVendorStore = create(
             set({isLoadingvendor : true})
             axios({
                 method : 'POST',
-                url : 'http://127.0.0.1:3003/api/v1/b2b_vendor/delete-vendor',
+                url : 'https://demandbackend.onrender.com/api/v1/b2b_vendor/delete-vendor',
                 data : {
                     list
                 }
@@ -54,7 +54,7 @@ const manageVendorStore = create(
             set({isLoadingvendor : true})
             axios({
                 method : 'POST',
-                url : "http://127.0.0.1:3003/api/v1/b2b_vendor/update-vendor",
+                url : "https://demandbackend.onrender.com/api/v1/b2b_vendor/update-vendor",
                 data : {
                     data : obj
                 }
@@ -94,7 +94,7 @@ const manageVendorStore = create(
             }else{
                 axios({
                     method : "GET",
-                    url : "http://127.0.0.1:3003/api/v1/b2b_vendor/vendors",
+                    url : "https://demandbackend.onrender.com/api/v1/b2b_vendor/vendors",
                     
                 }).then(res=>{
                     if(res.data.status == 'success'){

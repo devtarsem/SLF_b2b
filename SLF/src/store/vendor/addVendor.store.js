@@ -10,7 +10,7 @@ const addVendorStore = create(
             set({isLoadingVendor : true})
             axios({
                 method : 'POST',
-                url : "http://127.0.0.1:3003/api/v1/b2b_vendor/add-vendor",
+                url : "https://demandbackend.onrender.com/api/v1/b2b_vendor/add-vendor",
                 data : {
                     data : obj
                 }

@@ -14,7 +14,7 @@ const poStore = create(
             }else{
                 axios({
                     method : "GET",
-                    url : "http://127.0.0.1:3003/api/v1/b2b_vendor/vendors",
+                    url : "https://demandbackend.onrender.com/api/v1/b2b_vendor/vendors",
                     
                 }).then(res=>{
                     if(res.data.status == 'success'){
@@ -33,7 +33,7 @@ const poStore = create(
             }else{
                 axios({
                     method : "GET",
-                    url : "http://127.0.0.1:3003/api/v1/b2b/products",
+                    url : "https://demandbackend.onrender.com/api/v1/b2b/products",
                 }).then(res=>{
                     if(res.data.status=='success'){
                         localStorage.setItem("SLMProds", JSON.stringify(res.data.data.products))
@@ -66,7 +66,7 @@ const poStore = create(
             console.log(vendor)
             axios({
                 method : "POST",
-                url : "http://127.0.0.1:3003/api/v1/b2b_po/PO",
+                url : "https://demandbackend.onrender.com/api/v1/b2b_po/PO",
                 data : {
                     vendor,
                     sku,

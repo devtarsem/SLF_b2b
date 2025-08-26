@@ -15,7 +15,7 @@ const reportStore = create(
             set({isLoading : true})
             axios({
                 method : "POST",
-                url : "http://127.0.0.1:3003/api/v1/b2b_order/orders",
+                url : "https://demandbackend.onrender.com/api/v1/b2b_order/orders",
                 data : {
                     start,end
                 }

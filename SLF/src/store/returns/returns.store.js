@@ -21,7 +21,7 @@ const returnStore = create(
             set({isLoading : true})
             axios({
                 method : "POST",
-                url : "http://127.0.0.1:3003/api/v1/b2b_order/returns",
+                url : "https://demandbackend.onrender.com/api/v1/b2b_order/returns",
                 data : {
                     
                      
@@ -51,7 +51,7 @@ const returnStore = create(
             console.log(paymentId)
             axios({
                 method : "POST",
-                url : "http://127.0.0.1:3003/api/v1/b2b_order/initiate-returns",
+                url : "https://demandbackend.onrender.com/api/v1/b2b_order/initiate-returns",
                 data : {
                     paymentId,
                     amount,
