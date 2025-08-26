@@ -1,0 +1,139 @@
+.datefiler{
+    background-color: var(--color-first-light);
+}
+.active{
+    background-color: var(--color-third);
+    color: var(--color-white);
+}
+.activeDis{
+    background-color: var(--color-fourth);
+    color: var(--color-white);
+}
+.activeDel{
+    background-color: var(--color-love);
+    color: var(--color-white);
+}
+.activeCan{
+    background-color: var(--color-red);
+    color: var(--color-white);
+}
+.activeVen{
+    background-color: var(--color-coral);
+    color: #000;
+}
+.viewProd{
+    display: inline-block;
+    text-decoration: none;
+}
+.orderbox{
+    width: 100%;
+    height: 100%;
+}
+.orderDetails{
+    border-right: 0.1rem solid var(--color-first);
+}
+.idDet{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.idDetCenter{
+    text-align: center;
+}
+.changeStatusDets{
+    background-color: var(--color-first);
+    height: 100%;
+}
+.changeBtn{
+    background-color: var(--color-white);
+    border: none;
+    height: 100%;
+    font-family: 'Montserrat';
+    padding: 1rem;
+    outline: 0.5rem solid #f79b06;
+    cursor: pointer;
+}
+.gpartiorder{
+    background-color: var(--color-second);
+    box-shadow: 0 0 0.1rem var(--color-first);
+}
+.idOrder{
+    color: #000;
+    font-size: 1.4rem;
+    font-family: 500;
+}
+.idOrder span{
+    font-weight: 600;
+    color: var(--color-first);
+}
+.ordeItems{
+    height: 85vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.activered{
+    background-color: red;
+    color: var(--color-white);
+}
+.activegreen{
+    background-color: green;
+    color: var(--color-white);
+}
+.detals{
+    position: relative;
+}
+.skuOpens{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-second);
+    border: 0.05rem solid var(--color-first);
+}
+.mockup{
+    width: 100%;
+}
+.odbox{
+    border: 0.05rem solid var(--color-first);
+
+}
+.details{
+    padding-top: 0;
+}
+.name_order{
+    font-size: 1.2rem;
+}
+.mockOdImg{
+    width: 25%;
+}
+
+.billbtn{
+    border: none;
+    font-family: 'Montserrat';
+    padding: 1rem;
+    background-color: var(--color-first);
+    color: var(--color-white);
+    cursor: pointer;
+}
+.ongoing{
+    position: relative;
+}
+.fetchdata_ongoingOrder{
+    position: absolute;
+    background-color: var(--color-second);
+    width: 100%;
+    height: 100%;
+    z-index: 500;
+}
+.innerfetch{
+    background-color: var(--color-delegate);
+    width: 100%;
+}
+.widthfull{
+    width: 100%;
+}
+.borderbtn{
+    background: none;
+    box-shadow: inset 0 0 0 0.1rem var(--color-first);
+    color: var(--color-first);
+}

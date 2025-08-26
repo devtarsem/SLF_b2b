@@ -1,0 +1,183 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.productsList{
+  height: 72vh;
+  width: 100%;
+  box-shadow: 0 0 0.1rem var(--color-first-light);
+  overflow: scroll;
+  overflow-x: hidden;
+}
+table thead tr th{
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-bottom: 0.1rem solid var(--color-first-light);
+}
+table tbody tr td{
+    text-align: center;
+    padding: 1rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+table tbody tr {
+    border-bottom: 0.1rem solid var(--color-fade);
+
+}
+table tbody tr:hover{
+    background-color: var(--color-mustdo);
+    transition: all 0.2s;
+}
+.svgProd{
+    width: 1.6rem;
+}
+table{
+    position: relative;
+}
+table thead{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: var(--color-white);
+}
+.tags{
+    color: var(--color-first);
+}
+.search{
+    width: 100% !important;
+}
+.prodno{
+    font-size: 1.4rem;
+}
+.otherBtn{
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    background-color: var(--color-first);
+    padding: 1rem;
+    color: var(--color-white);
+}
+.otherBtn_extra{
+    background: none !important;
+}
+.productsList{
+    position: relative;
+}
+
+.noProduct{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 100%;
+    left: 50%;
+}
+.notFound{
+    width: 100%;
+}
+.msg{
+    font-size: 1.4rem ;
+}
+
+.manage{
+    position: relative;
+}
+
+.updatePnael{
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 40%;
+    height: 100%;
+    background-color: var(--color-white);
+    border: 0.1rem solid var(--color-first-light);
+    z-index: 10;
+}
+.inp__special{
+    width: 100%;
+}
+.updatetags{
+    grid-column: 1/4;
+}
+.datecol{
+    width: 100%;
+}
+.prodImgUpdate{
+    width: 100%;
+}
+.updateBtn{
+    padding: 0.5rem;
+}
+.imgcoverimg{
+    position: relative;
+}
+.deleteImage{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    z-index: 100;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.smallsvg{
+    width: 2.4rem;
+
+}
+.updateStock{
+    border: none;
+    font-family: 'Montserrat';
+    background-color: var(--color-first);
+    color: var(--color-white);
+    cursor: pointer;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+
+.updateStockSep{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #0000005d;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}
+.sizepanel{
+    width: 50%;
+}
+.sizepanel{
+    background-color: var(--color-white);
+}
+.nameUpdd{
+    font-size: 1.6rem;
+}
+.nameUpdd span{
+    font-weight: 600;
+}
+.cancelBtn,.changeSizes{
+    border: none;
+    padding: 0.5rem 1rem;
+    font-family: 'Montserrat';
+    cursor: pointer;
+    background-color: var(--color-first);
+    color: var(--color-white);
+}
+
+.manage{
+    position: relative;
+}
+.menuItemsSmallMobINV{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 200 !important;   
+    top: 0;
+    left: 0;
+    background-color: var(--color-second);
+}
+.fillnow{
+    text-align: center;
+}

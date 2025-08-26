@@ -1,0 +1,25 @@
+.itemHighlish{
+    background-color: #0065cb6d;
+    outline: 0.2rem solid var(--color-first);
+}
+.head3home{
+    font-size: 1.6rem;
+}
+.count,.itemName{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #000;
+}
+.gp1{
+    background-color: #ECEFF1;
+    outline : 0.2rem solid #455A64 !important;
+}
+
+.gp2{
+    background-color: #E8F5E9;
+    outline : 0.2rem solid #388E3C !important;
+}
+.gp3{
+    background-color: #FFF3E0;
+    outline : 0.2rem solid #F57C00 !important;
+}

@@ -1,0 +1,54 @@
+.skuDetails{
+    width: 100%;
+    height: 85vh;
+    background-color: var(--color-second);
+    box-shadow: 0 0 0.1rem var(--color-first);
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.returndets{
+    height: 85vh;
+}
+.details_returns{
+    background-color: var(--color-white);
+    box-shadow: 0 0 0.1rem var(--color-first);
+    border-left: 0.5rem solid var(--color-first);
+}
+.skuReturn{
+    font-size: 1.2rem;
+}
+.skuReturn span{
+    font-weight: 600;
+}
+.fetchSkuDetsbtn,.initiateBtn{
+    border: none;
+    font-family: 'Montserrat';
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: var(--color-first);
+    color: var(--color-white);
+}
+.initiateBtn{
+    cursor: pointer;
+    font-size: 1.4rem;
+    padding: 1rem;
+    width: 100%;
+}
+.mockofReturn{
+    width: 6.4rem;
+}
+.greenInited{
+    background-color: var(--color-third);
+}
+.returnOrders{
+    position: relative;
+}
+.minimenuItemsReturnOrders{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-second);
+    z-index: 200;
+}

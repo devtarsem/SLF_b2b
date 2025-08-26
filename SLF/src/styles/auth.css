@@ -1,0 +1,35 @@
+.auth{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-first);
+    z-index: 1000;
+}
+.formAuth{
+    width: 60%;
+    height: 100%;
+    background-color: #ffffffc2;
+}
+.graphic {
+    width: 100%;
+    height: 100%;
+}
+.avv,.authbtn{
+    border: none;
+    background-color: var(--color-first);
+    font-family: 'Montserrat';
+    padding: 0.5rem 2rem;
+    color: var(--color-white);
+    cursor: pointer;
+}
+.authbtn{
+    padding: 1rem;
+}
+
+.avvOff{
+    background: none;
+    color: var(--color-first);
+    box-shadow: inset 0 0 0 0.1rem var(--color-first);
+}

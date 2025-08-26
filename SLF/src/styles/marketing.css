@@ -1,0 +1,48 @@
+.Nav{
+    height: 10vh;
+    background-color: var(--color-white);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-bottom: 0.1rem solid #0000000c;
+}
+.head1Home{
+    font-family: 'Pacifico';
+    font-weight: 300;
+    
+}
+.special_link{
+    padding: 1rem 2rem;
+    background-color: var(--color-first);
+    color: var(--color-white) !important;
+}
+.header{
+    margin-top: 10vh;
+    height: 90vh;
+}
+.content{
+    background-color: var(--color-second);
+}
+.imaginary{
+    background-image : url("/home1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.head2Home{
+    font-size: 4.8rem;
+}
+.head2Home span{
+    color: var(--color-first);
+}
+.des{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+.ctaCall{
+    background-color: var(--color-first);
+    padding: 1rem 2rem;
+    color: var(--color-white) !important;
+    margin-top: 1.6rem !important;
+    display: inline-block;
+}

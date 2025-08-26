@@ -1,0 +1,34 @@
+.mobmenu {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100% !important;
+  height: 10vh;
+  background-color: var(--color-first);
+  display: inline-block;
+  z-index: 5000;
+}
+.link_inline{
+    display: inline-block;
+    flex-direction: column !important;
+}
+.coverin{
+    width: 100%;
+}
+.linkdashboard__{
+    font-weight: 300;
+    
+    padding: 1.6rem;
+}
+.linkActive__{
+    background-color: var(--color-first);
+}
+.svgIcon__Comp{
+    fill : var(--color-first) !important;
+    outline: 0.5rem solid var(--color-white);
+    background-color: var(--color-second);
+    border-radius: 1rem;
+}
+.svgIcon__{
+    fill : #ffffffa6 !important;
+}

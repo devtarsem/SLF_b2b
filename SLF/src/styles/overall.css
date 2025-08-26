@@ -1,0 +1,50 @@
+.hiddenLabel{
+   opacity: 0;
+}
+.numberDiv{
+    background-color: var(--color-first);
+}
+.headOfval{
+    font-size: 1.6rem;
+    color: var(--color-white);
+}
+.headOfval__{
+    font-size: 1.6rem;
+    font-weight: 600;
+    background-color: var(--color-white);
+    padding: 1rem 2rem;
+}
+.totalItem,.orderhead{
+    font-size: 1.4rem;
+}
+.red{
+    background-color: red;
+    color: var(--color-white);
+}
+.green{
+    background-color: green;
+    color: var(--color-white);
+
+}
+.ordersEce thead tr th{
+    background-color: var(--color-first);
+    color: var(--color-white);
+}
+.orderExecuted{
+    height: 55vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.overall{
+    position: relative;
+}
+.minimenuItemsOverallRepo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:var(--color-second);
+    z-index: 200;
+}

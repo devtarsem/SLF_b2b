@@ -1,0 +1,32 @@
+.navigation{
+    grid-column: 1/3;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, var(--color-first-light), var(--color-first));
+}
+.dashboard{
+    height: 100vh;
+}
+.svgIcon{
+    width: 2rem !important;
+}
+.dashHead{
+    color: var(--color-white);
+    margin-bottom: 2.4rem;
+    text-align: center;
+}
+.mainmnu{
+    font-size: 1.4rem;
+    color: var(--color-white);
+}
+.linkdashboard{
+    font-weight: 300;
+    color: var(--color-white);
+    padding: 1.6rem;
+}
+.linkActive{
+    background-color: var(--color-first);
+}
+.response{
+    grid-column: 3/13;
+}

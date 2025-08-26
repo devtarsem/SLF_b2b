@@ -1,0 +1,77 @@
+.tableExpenses thead tr th{
+    background-color: var(--color-first);
+    color: var(--color-white);
+    font-weight: 600;
+}
+.tableExpenses tbody tr td:first-child{
+    background-color: var(--color-first);
+    border-bottom: 0 !important;
+    color: var(--color-white);
+}
+.tableExpenses tbody tr td:last-child{
+    background-color: var(--color-delegate);
+    border-bottom: 0 !important;
+    color: var(--color-white);
+}
+.tableExpenses{
+    border-collapse: collapse;
+}
+.saveExp{
+    border: none;
+    font-family: 'Montserrat';
+    padding: 1rem;
+    cursor: pointer;
+    background-color: var(--color-first);
+    color: var(--color-white);
+    font-weight: 600;
+}
+.total{
+    font-size: 1.4rem;
+    color: #000;
+}
+
+.dropDownCp{
+    position: relative;
+    display: block;
+    /* width: 100%; */
+    background-color: var(--color-first);
+    padding:1rem 2rem;
+    text-align: center;
+}
+.dropdonmenu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    width: 100%;
+    z-index: 100;
+}
+.dropDownCp:hover .dropdonmenu {
+  display: block;
+}
+.dropDownCp span{
+    font-size: 1.4rem;
+    color: var(--color-white);
+    width: 100%;
+
+}
+.standardBtn_white{
+    background-color: var(--color-first-light) !important;
+    border-bottom: 0.1rem solid #000;
+    color: var(--color-white);
+    width: 100%;
+}
+
+.expenses{
+    position: relative;
+}
+.miniExpMenuOpts{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-second);
+    z-index: 200;
+}

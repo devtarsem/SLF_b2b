@@ -1,0 +1,284 @@
+@media(max-width : 1450px){
+    .mobmenu{
+        display: none !important;
+    }
+    .smallMobMenu{
+        display: none;
+    }
+    .OngoingMiniMenuBtn{
+        display: none;
+    }
+    .managevendorMenuBtnMini,.returnOrderMiniMenuBtn,.miniOverallReportMenyBtn,.miniExpMenuBtn{
+        display: none;
+    }
+}
+
+@media(max-width : 1250px){
+    .invLarge{
+        display: none !important;
+    }
+    .smallMobMenu{
+        display: block !important;
+        z-index: 100 !important;
+    }
+}
+
+@media(max-width: 1050px){
+    .ongoingMINI{
+        flex-direction: column !important;
+        align-items: baseline !important;
+        justify-content: baseline !important;
+        gap: 1.6rem;
+    }
+    .OngingOrderMini{
+        padding-bottom: 10vh;
+    }
+    .auth{
+        z-index: 5000 !important;
+    }
+}
+
+@media(max-width : 950px){
+    .navigation{
+        display: none !important;
+    }
+    .response{
+        grid-column: 1/13 !important;
+    }
+    .mobmenu{
+        display: block !important;
+    }
+    .prodAddsmall{
+        padding-bottom: 10vh !important; 
+    }
+    .productsList{
+        height: 58vh !important;
+        overflow-x: scroll !important;
+    }
+    .orderpagiMini{
+        font-size: 1.2rem !important;
+    }
+    .miniOngoingPagiMini{
+        display: grid !important;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .pagiBtnAlignMini{
+        align-items: baseline !important;
+        justify-content: flex-start !important;
+    }
+    .orderbox{
+        grid-template-columns: repeat(1,1fr) !important;
+        gap: 1.6rem !important;
+    }
+    .orderDetails{
+        border-right: none !important;
+        border-bottom: 0.1rem solid var(--color-first);
+    }
+    .detals{
+        padding-bottom: 10vh !important;
+    }
+    .manageVendorMinimen{
+        display: none !important;
+    }
+    .managevendorMenuBtnMini{
+        display: block;
+    }
+    .UpdateVendors{
+        width: 100% !important;
+        height: 100% !important;
+        border: none !important;
+    }
+    .updatevendorInnerMini{
+        
+        margin-bottom: 15vh !important;
+    }
+    .returnDetailsMiniBtnsoff{
+        display: none !important;
+    }
+    .returnOrderMiniMenuBtn{
+        display: block !important;
+    }
+    .numbers{
+        grid-template-columns: repeat(3,1fr) !important;
+    }
+    .miniAnalytucsOverallRepoOff{
+        display: none !important;
+    }
+    .miniOverallReportMenyBtn{
+        display: block !important;
+    }
+    .overall{
+        margin-bottom: 10vh !important;
+    }
+    .updatePnael{
+        width: 100% !important;
+        height: 100% !important;
+        border: none !important;
+        padding-bottom: 20vh !important;
+        z-index: 2000 !important;
+        
+        background-color: saddlebrown;
+    }
+
+}
+
+@media(max-width : 650px){
+    .highlightgrid{
+        grid-template-columns: repeat(2,1fr) !important;
+    }
+    .invSmall,.prodAddsmall{
+        display: grid !important;
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .description_big{
+        grid-column: 1/2 !important;
+    }
+    .LinkInc{
+        font-size: 1.4rem !important;
+    }
+    .prodAddsmall{
+        padding-bottom: 10vh !important;  
+    }
+    /* .menuItemsSmallMobINV{
+        display: grid !important;
+        grid-template-columns: repeat(1,1fr);
+    } */
+    .coverMinMenu{
+        width: 100% !important;
+    }
+    .feaINVManage{
+        display: grid !important;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .feaINVManage{
+        gap: 1.6rem !important;
+    }
+    .manage{
+        overflow: scroll !important;
+        overflow-x: hidden !important;
+        padding-bottom: 10vh !important;
+    }
+    /* .menuItemsSmallMobINV{
+        bottom: 8% !important;
+    } */
+    .dropDownCp{
+        width: 100% !important;
+    }
+    .FetchOrdersM{
+        display: none !important;
+    }
+    .OngoingMiniMenuBtn{
+        display: block;
+    }
+    .advendorFormMini{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .refundMiniMenu{
+        display: grid !important;
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .analyticsMinimenu{
+        display: grid !important;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .ordersEce{
+        overflow: scroll !important;
+        width: 100% !important;
+        overflow-x: scroll !important;
+    }
+    .orderExecuted{
+        overflow-x: scroll !important;
+    }
+    .numbers{
+        grid-template-columns: repeat(2,1fr) !important;
+    }
+    .miniExpDiv{
+        width: 100% !important;
+        overflow: scroll !important;
+        overflow-y: hidden !important;
+        /* margin: 0 auto !important; */
+    }
+    .tableExpenses{
+        
+        width: 100% !important;
+    }
+    .ExpDropOff{
+        display: none !important;
+    }
+    .miniExpMenuBtn{
+        display: block;
+    }
+    .stockUpdateMini{
+        gap: 1.6rem !important;
+    }
+    .updateStockSep{
+        z-index: 700 !important;
+    }
+    .sizeColumnMini{
+        display: grid !important;
+        grid-template-columns: repeat(2,1fr) !important;
+    }
+    .sizepanel{
+        width: 80% !important;
+    }
+}
+
+@media(max-width : 500px){
+    .miniExpDiv{
+        width: 100% !important;
+       
+    }
+    .authBtnsMini{
+        display: grid !important;
+        grid-template-columns: repeat(1,1fr) !important;
+        gap: 0 !important;
+    }
+    .formAuth{
+        width: 90% !important;
+    }
+
+}
+
+@media(max-width : 400px){
+    .highlightgrid{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .invFeagrid{
+        display: grid !important;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .INVSearchMini{
+        grid-column: 1/3 !important;
+    }
+    .prodno{
+        font-size: 1.2rem !important;
+    }
+    .ordersMini{
+        display: grid !important;
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .minifetcorder{
+        flex-direction: column !important;
+    }
+    .detailstatusOrderMini{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .skuminiDetails{
+        flex-direction: column !important;
+        align-items: baseline !important;
+        justify-content: baseline !important;
+        gap: 1.6rem !important;
+    }
+    .orderDetails,.ordeItems{
+        padding: 0 !important ;
+    }
+    .numbers{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .headOfval__,.headOfval{
+        font-size: 1.2rem !important;
+    }
+    .headOfval{
+        font-size: 1.4rem !important;
+    }
+}
