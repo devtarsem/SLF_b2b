@@ -1,7 +1,7 @@
 import {create} from 'zustand';
 import axios from 'axios'
 import Swal from 'sweetalert2'
-import {jsPDF} from 'jsPDF'
+import {jsPDF} from 'jspdf'
 import autoTable from "jspdf-autotable";
 import * as XLSX from "xlsx";
 import export_excel from '../../class/excelExport';

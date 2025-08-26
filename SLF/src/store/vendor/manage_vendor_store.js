@@ -1,6 +1,6 @@
 import {create} from 'zustand'
 import axios from 'axios'
-import {jsPDF} from 'jsPDF'
+import {jsPDF} from 'jspdf'
 import autoTable from "jspdf-autotable";
 import export_excel from '../../class/excelExport';
 
