@@ -1,6 +1,6 @@
 import {create} from 'zustand'
 import axios from 'axios' 
-import jsPDF from 'jsPDF'
+import {jsPDF} from 'jsPDF'
 import autoTable from "jspdf-autotable";
 
 const ongoingStore = create(
