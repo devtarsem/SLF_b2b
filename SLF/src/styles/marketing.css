@@ -93,6 +93,8 @@
 
 .Nav{
     position: relative;
+    overflow: hidden !important;
+
 }
 .miniNavsMenu{
     position: absolute;
@@ -103,8 +105,8 @@
     right: 5%;
     transition: all 0.5s;
 }
-.marketing{
-    overflow: hidden;
+.header{
+    overflow: hidden !important;
 }
 .miniNavsHide{
     right: -100%;

@@ -18,6 +18,7 @@ import Auth from './auth';
 function Onging_orders(){
 
     const {fetchOrders, searchOrder, nextOnPagination, prevOnpagination,sortOrderList,startPage, endPage,changing_order_status,isLoadingOrders, cacheOrders, orders, start_date, end_date} = ongoingStore()
+    const [minifetchOrder, setMiniFetchOrder] = useState(false)
 
     useEffect(el=>{
         cacheOrders()
@@ -46,6 +47,8 @@ function Onging_orders(){
             return;
         }
         fetchOrders(start, end)
+        setMiniFetchOrder(minifetchOrder=> false)
+
     }
 
     function searchOrdersFun(el){
@@ -65,7 +68,6 @@ function Onging_orders(){
         prevOnpagination()
     }
 
-    const [minifetchOrder, setMiniFetchOrder] = useState(false)
 
     function miniFetcher(){
         setMiniFetchOrder(minifetchOrder=> !minifetchOrder)
