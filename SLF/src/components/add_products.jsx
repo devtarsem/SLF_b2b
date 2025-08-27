@@ -1,6 +1,6 @@
 import './../styles/dashboard.css'
 import './../styles/add_prods.css'
-
+import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import './../utils/util.css'
 import Nav from './nav';
 import home from '/home.png'
@@ -14,6 +14,8 @@ import Auth from './auth';
 function AddProducts(){
 
 
+    const auth = getAuth();
+    const provider = new GoogleAuthProvider();
     const name = createRef()
     const des = createRef()
     const sku = createRef()
@@ -28,6 +30,8 @@ function AddProducts(){
     const images = createRef()
     const {addProductsToDB, isLoadingProduct} = addProductStore()
     const Pop = new sweetalertPop()
+    const [imgSelect, setImgselect] = useState()
+
 
     const {AuthNeeded, checkAuth} = authStore()
     useEffect(el=>{
@@ -92,7 +96,7 @@ function AddProducts(){
             tags : tags.current.value.split(","),
             colors : colors.current.value.split(","),
             sizes : sizes.current.value.split(","),
-            images : [],
+            images : imgSelect
         })
         name.current.value = ''
         des.current.value = ''
@@ -107,6 +111,16 @@ function AddProducts(){
         colors.current.value = ''
         sizes.current.value = ''
         
+    }
+    function selectingImages(el){
+        setImgselect(imgSelect=> el.target.files)
+    }
+
+    async function firebaseExcess(el){
+        el.preventDefault()
+        const { user } = await signInWithPopup(auth, provider);
+        console.log(user)
+        // return user;
     }
 
     return(
@@ -127,10 +141,15 @@ function AddProducts(){
                     <input ref={name} placeholder='product'  class="inp" type="text" id="productName" name="productName" />
                 </div>
 
-
-                <div className="flex flex-dir gap8">
-                    <label class="label" for="productImages">Product Images</label>
-                    <input ref={images} placeholder='product' class="inp" type="file" id="productImages" name="productImages" multiple />
+                <div className='flex flex-3 gap16'>
+                    <div className="flex flex-dir gap8">
+                        <label class="label" for="productImages">Product Images</label>
+                        <input onChange={selectingImages} ref={images} placeholder='product' class="inp" type="file" id="productImages" name="productImages" multiple />
+                    </div>
+                    {/* <div className="flex flex-dir gap8">
+                        <label class="label" for="productImages">Google excess</label>
+                        <button onClick={firebaseExcess} className='Oauth standardBtn'>Give excess</button>
+                    </div> */}
                 </div>
 
                 <div className="flex flex-dir gap8">

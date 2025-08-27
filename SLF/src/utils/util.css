@@ -71,7 +71,9 @@
   .gap48{
     gap: 4.8rem;
   }
-  
+  .gap96{
+    gap: 9.6rem;
+  }
   .grid{
     display: grid;
   }

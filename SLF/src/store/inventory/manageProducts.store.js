@@ -280,6 +280,22 @@ const productStore = create(
             excel.handleExport(arr, 'Inventory_report')
         }
 
+        // ,
+
+        // deleteImgCDN : async(cdn)=>{
+        //     axios({
+        //         method : "POST",
+        //         url : "http://127.0.0.1:3003/api/v1/b2b/delete-cdn",
+        //         data : {
+        //             cdn
+        //         }
+        //     }).then(res=>{
+        //         if(res.data.status == 'success'){
+
+        //         }
+        //     })
+        // }
+
     })
 )
 

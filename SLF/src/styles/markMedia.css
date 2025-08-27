@@ -1,0 +1,116 @@
+@media(max-width : 2500px){
+    .btnsMarkMenu{
+        display: none !important;
+    }
+}
+
+@media(max-width : 1150px){
+    .fearoles{
+        column-gap: 4.8rem !important;
+        grid-template-columns: repeat(2,1fr) !important;
+    }
+}
+
+@media(max-width : 950px){
+    .feaPro{
+        width: 60% !important;
+    }
+    .cta{
+        display: none;
+    }
+    .apphead{
+        font-size: 2.4rem !important;
+    }
+    .contapp{
+        padding: 4.8rem !important;
+    }
+    .LinkstoFoot{
+        grid-template-columns: repeat(3,1fr) !important;
+        gap: 1.6rem !important;
+    }
+}
+
+@media(max-width : 750px){
+    .feaPro{
+        width: 80% !important;
+    }
+    .fearoles{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .navLinkMini{
+        display: none !important;
+    }
+    .btnsMarkMenu{
+        display: block !important;
+    }
+    .head2Home{
+        font-size: 3.2rem !important;
+    }
+}
+
+
+@media(max-width : 600px){
+    .feaPro{
+        width: 100% !important;
+    }
+    .features_{
+        padding: 9.6rem 4.8rem !important;
+    }
+    .feahead{
+        font-size: 2.4rem !important;
+    }
+    .feades{
+        font-size: 1.2rem !important;
+    }
+    .markeheadcont{
+        padding: 9.6rem 4.8rem !important;
+    }
+    .appgrid{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .Appversion{
+        gap: 1.6rem !important;
+    }
+    .contapp{
+        padding-top: 0 !important;
+        border-right: none !important;
+    }
+    .LinkstoFoot{
+        grid-template-columns: repeat(1,1fr) !important;
+        gap: 1.6rem !important;
+    }
+    .footer{
+        padding: 2.4rem !important;
+    }
+    .foothead{
+        font-size: 2.4rem;
+    }
+}
+
+
+@media(max-width : 400px){
+    .features_{
+        padding: 9.6rem 1.6rem !important;
+    }
+    .head2Home{
+        font-size: 2.4rem !important;
+    }
+    .des{
+        font-size: 1.4rem !important;
+    }
+    .markeheadcont{
+        padding: 4.8rem 1.6rem !important;
+    }
+    .contapp{
+        padding: 1.6rem !important;
+    }
+    .foothead{
+        font-size: 1.8rem;
+    }
+    .linkhead{
+        font-size: 1.4rem;
+    }
+    .footlink{
+        font-size: 1.4rem !important;
+    }
+}

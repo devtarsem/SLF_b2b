@@ -30,3 +30,10 @@
 .response{
     grid-column: 3/13;
 }
+
+.openWelcome{
+    height: 100%;
+}
+.openHead{
+    font-size: 2.4rem;
+}

@@ -1,7 +1,8 @@
-.Nav{
+ .Nav{
     height: 10vh;
     background-color: var(--color-white);
-    position: fixed;
+    position: absolute !important;
+    
     width: 100%;
     top: 0;
     left: 0;
@@ -18,11 +19,15 @@
     color: var(--color-white) !important;
 }
 .header{
-    margin-top: 10vh;
+    /* margin-top: 10vh; */
     height: 90vh;
+   
 }
 .content{
     background-color: var(--color-second);
+     background-image: url("/homedesh1.png");
+    background-size: cover;
+    background-position: center;
 }
 .imaginary{
     background-image : url("/home1.jpg");
@@ -31,6 +36,7 @@
 }
 .head2Home{
     font-size: 4.8rem;
+    text-align: center;
 }
 .head2Home span{
     color: var(--color-first);
@@ -38,11 +44,109 @@
 .des{
     font-size: 1.6rem;
     line-height: 1.5;
+    text-align: center;
 }
 .ctaCall{
-    background-color: var(--color-first);
+    background-color: var(--color-white);
     padding: 1rem 2rem;
-    color: var(--color-white) !important;
+    color: var(--color-first) !important;
     margin-top: 1.6rem !important;
     display: inline-block;
+}
+.feaPro{
+    width: 40%;
+}
+.feahead{
+    font-size: 3.2rem;
+    color: var(--color-first);
+}
+.feades{
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.4rem;
+    color: #555;
+}
+
+.headfea2{
+    font-size: 1.6rem;
+    color: var(--color-first);
+}
+.feaLong{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
+}
+.svgMark{
+    width: 3.2rem !important;
+    height: 3.2rem !important;
+
+    fill: var(--color-first);
+}
+.fearoles{
+    row-gap: 4.8rem !important;
+}
+.menuBtn{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.Nav{
+    position: relative;
+}
+.miniNavsMenu{
+    position: absolute;
+    width: 30vh;
+    height: 50vh;
+    background-color: var(--color-second);
+    top: 100%;
+    right: 5%;
+    transition: all 0.5s;
+}
+.marketing{
+    overflow: hidden;
+}
+.miniNavsHide{
+    right: -100%;
+}
+.linkNavTop{
+    background-color: var(--color-first);
+    padding: 1rem;
+    color: var(--color-white) !important;
+    text-align: center;
+}
+
+.appversion{
+    width: 50%;
+    border-radius: 1rem;
+}
+.contapp{
+    border-right: 0.1rem solid var(--color-first);
+}
+.Appversion{
+    padding-bottom: 4.8rem;
+}
+.footer{
+    background-color: #000;
+}
+.foothead{
+    color: var(--color-white);
+    font-size: 3.2rem;
+}
+.linkhead{
+    color: var(--color-white);
+    font-size: 1.8rem;
+}
+.footlink{
+    font-size: 1.6rem;
+    color: var(--color-white);
+}
+.dashLogin{
+    background-color: var(--color-first);
+    border-radius: 0.5rem;
+}
+.footbot{
+    font-size: 1.4rem;
+    color: var(--color-white);
+
 }

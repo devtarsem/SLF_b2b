@@ -1,16 +1,24 @@
 import './../styles/dashboard.css'
 import './../styles/media.css'
-
+import { useLocation } from "react-router-dom";
 import './../utils/util.css'
 import Nav from './nav';
 import home from '/home.png'
 import { Link, Outlet } from 'react-router';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import MobMenu from './mobile_menu';
 
 function Dashboard(){
 
     const [navState, setNavState] = useState(1);
+    const location = useLocation();
+
+    const [loc, settLoc] = useState(location.pathname)
+
+    useEffect(el=>{
+        console.log(loc)
+    }, [])
+
     function Home(){
         setNavState(navState=> 1)
     }
@@ -88,6 +96,7 @@ function Dashboard(){
                 </div>
             </div>
             <div className='response pad16'>
+                
                 <Outlet/>
             </div>
         </div>
